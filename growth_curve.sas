@@ -47,7 +47,7 @@ proc sort data=growth_data;
 Run;
 
 /* Step 2: Fit the growth curve model */
-proc nlin data=growth_data method=marquardt outest=param_est maxiter=700;
+proc nlin data=growth_data method=marquardt outest=param_est;
     by Animal; /* Fit the model separately for each animal */
     parms A=300 B=0.03 K=0.1; /* Initial parameter guesses for A, B, K */
     model weight = A / (1 + exp(-B*(td - K)));   /* Growth curve equation */
