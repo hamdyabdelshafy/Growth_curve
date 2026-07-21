@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_nlin_growth_model",
+  "source_file": "growth_curve.sas",
+  "source_blob_sha": "44678734537cb7459e40cd0dc588b5b134338a01",
+  "source_commit": "0d6f608444b8bd48e37b615ad776a06d53262212",
+  "notes": "Modeling core extracted from growth_curve.sas: the PROC NLIN logistic fit (method=marquardt, model weight = A/(1+exp(-B*(td-K)))) and the PROC SQL R-squared calculation, on the author's exact inline DATALINES data. Two PROC PRINT steps added to display the per-animal parameter estimates and R-squared. Export and SGPLOT steps omitted so the modeling/R-squared step can be inspected in isolation."
+}

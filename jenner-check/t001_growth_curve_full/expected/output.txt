@@ -1,0 +1,118 @@
+
+--- BY Group: Animal=425 ---
+
+
+                         The NLIN Procedure
+
+                     Method: Marquardt
+
+                          Iterative Phase
+
+                                                   Sum of
+           Iter          Residual SS
+              0         34704.777775
+              1            25.658497
+
+       Convergence criterion met.
+
+           Residual SS            25.658497
+           Residual MS             2.850944
+
+                        Parameter Estimates
+
+                                    Approx
+           Parameter    Estimate    Std Error   95% Confidence Limits
+
+           A            457.0824      24.4566     401.7578     512.4070
+           B              0.1523       0.0064       0.1378       0.1668
+           K              9.0135       0.7253       7.3728      10.6542
+
+
+
+--- BY Group: Animal=429 ---
+
+
+                         The NLIN Procedure
+
+                     Method: Marquardt
+
+                          Iterative Phase
+
+                                                   Sum of
+           Iter          Residual SS
+              0          7441.950820
+              1             1.036152
+
+       Convergence criterion met.
+
+           Residual SS             1.036152
+           Residual MS             1.036152
+
+                        Parameter Estimates
+
+                                    Approx
+           Parameter    Estimate    Std Error   95% Confidence Limits
+
+           A            360.4455      41.5298    -167.2409     888.1319
+           B              0.1370       0.0170      -0.0786       0.3525
+           K              6.9672       1.8839     -16.9696      30.9041
+
+
+
+--- BY Group: Animal=431 ---
+
+
+                         The NLIN Procedure
+
+                     Method: Marquardt
+
+                          Iterative Phase
+
+                                                   Sum of
+           Iter          Residual SS
+              0         12142.539066
+              1            13.868195
+
+       Convergence criterion met.
+
+           Residual SS            13.868195
+           Residual MS             1.540911
+
+                        Parameter Estimates
+
+                                    Approx
+           Parameter    Estimate    Std Error   95% Confidence Limits
+
+           A            449.2668      40.8120     356.9436     541.5901
+           B              0.1088       0.0064       0.0942       0.1233
+           K             11.1978       1.6448       7.4770      14.9186
+
+
+
+--- BY Group: Animal=568 ---
+
+
+                         The NLIN Procedure
+
+                     Method: Marquardt
+
+                          Iterative Phase
+
+                                                   Sum of
+           Iter          Residual SS
+              0         10299.275911
+              1          1584.661788
+
+       Convergence criterion met.
+
+           Residual SS          1584.661788
+           Residual MS           264.110298
+
+                        Parameter Estimates
+
+                                    Approx
+           Parameter    Estimate    Std Error   95% Confidence Limits
+
+           A            147.3132       9.0938     125.0615     169.5649
+           B              0.7722       0.5081      -0.4709       2.0154
+           K              0.4216       0.7811      -1.4895       2.3328

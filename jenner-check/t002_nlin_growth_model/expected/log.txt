@@ -1,0 +1,38 @@
+NOTE: Jenner v1.5.37 (build v1.5.37+886f95a5f1.20260717T051227Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA growth_data
+
+NOTE: Processing inline DATALINES (37 lines)
+
+NOTE: Read 37 rows from DATALINES.
+NOTE: Wrote growth_data (37 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=growth_data
+
+NOTE: Read 37 rows from growth_data.
+NOTE: Wrote growth_data (37 rows, 3 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC NLIN data=growth_data
+
+NOTE: ODS OUTPUT: ParameterEstimates -> param_table
+NOTE: Using Python (scipy) for NLIN estimation, method=marquardt
+NOTE: Using Python (scipy) for NLIN estimation, method=marquardt
+NOTE: Using Python (scipy) for NLIN estimation, method=marquardt
+NOTE: Using Python (scipy) for NLIN estimation, method=marquardt
+NOTE: PROC SQL 
+
+NOTE: Table mean_weight created.
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: Table r_squared created.
+NOTE: PROC SQL statement used.
+NOTE: PROC PRINT data=param_table
+
+NOTE: PROC PRINT completed: 12 observations printed, 6 variables
+NOTE: PROC PRINT data=r_squared
+
+NOTE: PROC PRINT completed: 4 observations printed, 2 variables

@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_growth_curve_full",
+  "source_file": "growth_curve.sas",
+  "source_blob_sha": "44678734537cb7459e40cd0dc588b5b134338a01",
+  "source_commit": "0d6f608444b8bd48e37b615ad776a06d53262212",
+  "notes": "Full growth_curve.sas pipeline verbatim except the two hardcoded Windows Excel export paths (F:\\00_coding\\...\\growth_parameters.xlsx) rewritten to relative ./growth_parameters.xlsx so PROC EXPORT runs. Fits a logistic growth curve per animal with PROC NLIN (Marquardt), computes R-squared via PROC SQL, transposes/merges parameter estimates and std errors, exports to xlsx, and plots observed vs predicted with PROC SGPLOT. Data is the author's inline DATALINES (4 animals, 37 rows)."
+}
